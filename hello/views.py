@@ -7,7 +7,7 @@ from django.shortcuts import render
 def index(request):
     return HttpResponse('''
     <h1 style="color:green; font-family: Arial, sans-serif;">
-        Hi, it is a first change to this project and I hope it works
+        Hi, it is a first change to this project and I hope it works!
     </h1>
     ''')
 
